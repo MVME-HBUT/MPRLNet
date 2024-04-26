@@ -132,12 +132,3 @@ The three different values possible for `eval_split` are explained here:
 
 Because no ground truth is available for the new KITTI depth benchmark, no scores will be reported  when `--eval_split benchmark` is set.
 Instead, a set of `.png` images will be saved to disk ready for upload to the evaluation server.
-
-
-**External disparities evaluation**
-
-Finally you can also use `evaluate_depth.py` to evaluate raw disparities (or inverse depth) from other methods by using the `--ext_disp_to_eval` flag:
-
-```shell
-python evaluate_depth.py --ext_disp_to_eval ~/other_method_disp.npy
-```
