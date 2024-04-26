@@ -1,10 +1,7 @@
 # MPRLNet
 
-This is the reference PyTorch implementation for training and testing depth estimation models using the method described in
-
+Official codes for
 > **Multiple Prior Representation Learning for Self-Supervised Monocular Depth Estimation via Hybrid Transformer**
->
-> [Guodong Sun], [Junjie Liu], [Mingxuan Liu], [Moyun Liu]  and [Yang Zhang]
 
 
 
@@ -144,9 +141,3 @@ Finally you can also use `evaluate_depth.py` to evaluate raw disparities (or inv
 ```shell
 python evaluate_depth.py --ext_disp_to_eval ~/other_method_disp.npy
 ```
-
-
-## 👩‍⚖️ License
-Copyright © Guodong Sun, Inc. 2024. Patent Pending.
-All rights reserved.
-Please see the [license file](LICENSE) for terms.
